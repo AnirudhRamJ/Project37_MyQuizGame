@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Quiz Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCdbcDjL5OS2KmNpJiUYxncyeUSUmVJ3W8",
+      authDomain: "myquizgame-7d7fe.firebaseapp.com",
+      databaseURL: "https://myquizgame-7d7fe-default-rtdb.firebaseio.com",
+      projectId: "myquizgame-7d7fe",
+      storageBucket: "myquizgame-7d7fe.appspot.com",
+      messagingSenderId: "755468199321",
+      appId: "1:755468199321:web:c7afbea0660e17be915f08"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="js/Contestant.js"></script>
+  <script src="js/Question.js"></script>
+  <script src="js/Quiz.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
